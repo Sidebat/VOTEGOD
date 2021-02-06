@@ -1,49 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="styles.css">
-    <title>Poll Machine (Vote Nixon)</title>
-  </head>
-  <body>
-<marquee behavior="scroll" direction="left" scrollamount="25" width="1250"> 
-    <div class="c-container"> 
-        <canvas id="r-chart"></canvas>           
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <title>Poll Machine (Vote Nixon)</title>
+</head>
+
+<body>
+  <marquee behavior="scroll" direction="left" scrollamount="25" width="1250">
+    <div class="c-container">
+      <canvas id="r-chart"></canvas>
     </div>
     <marquee behavior="scroll" direction="left" scrollamount="25">
-        <img src="NixonScreams.jg.jpg" width="120" height="40" alt="Natural" /> VOTE NIXON <img src="NixonScreams.jg.jpg" width="120" height="40" alt="Natural" />
-      </marquee>
+      <img src="NixonScreams.jg.jpg" width="120" height="40" alt="Natural" /> VOTE NIXON <img src="NixonScreams.jg.jpg"
+        width="120" height="40" alt="Natural" />
+    </marquee>
 
     <div class="o-container">
 
-        <h3 class="r-header">Vote:</h3>
-        <button id="a-btn" class="option">Richard Nixon</button>
-        <button id="b-btn" class="option"> Barack Obama</button>
-        <button id="c-btn" class="option">Kanye East</button>
+      <h3 class="r-header">Vote:</h3>
+      <button id="a-btn" class="option">Richard Nixon</button>
+      <button id="b-btn" class="option"> Barack Obama</button>
+      <button id="c-btn" class="option">Kanye East</button>
 
-        <h3 class="r-header">Results:</h3>
-        <p id='a-text' class="results">0</p>
-        <p id='b-text' class="results">0</p>
-        <p id='c-text' class="results">0</p>
+      <h3 class="r-header">Results:</h3>
+      <p id='a-text' class="results">0</p>
+      <p id='b-text' class="results">0</p>
+      <p id='c-text' class="results">0</p>
     </div>
-    
+
     <script src="Chart.js" defer></script>
-    
+
     <script src="index.js" defer></script>
 
     <div id="ac-wrapper">
-        <div id="popup">
-            <video controls src="videoplayback.mp4" loop muted autoplay></video>
-            <center>
-                <h2>Nixon is God</h2>
-                <input type="submit" name="submit" value="Submit" onClick="PopUp()" />
-            </center>
-        </div>
+      <div id="popup">
+        <video controls src="videoplayback.mp4" loop muted autoplay></video>
+        <center>
+          <h2>Nixon is God</h2>
+          <input type="submit" name="submit" value="Submit" onClick="PopUp()" />
+        </center>
+      </div>
     </div>
     <script type="text/javascript">
-      
-    
-      </script>
-  </body>
+
+
+    </script>
+</body>
+
 </html>
 
 </marquee>

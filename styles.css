@@ -1,48 +1,48 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{ 
+body {
     height: 100vh;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     background-color: #F2F6F7;
-    
     font: 20px monospace;
 }
 
-marquee{
+marquee {
     color: black;
     font-size: 1rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-button { 
+button {
     border-radius: 1em;
     padding: 1em;
     margin: 1em;
     cursor: url(NIXONG.png), pointer;
 }
+
 button:focus {
     outline: none;
     cursor: url(NIXONG.png), pointer;
 }
-button:hover{
+
+button:hover {
     opacity: 0.9;
     cursor: pointer;
     cursor: url(NIXONG.png), pointer;
 }
 
-.r-header{
+.r-header {
     margin: 1em;
 }
 
-.o-container{
+.o-container {
     display: grid;
     justify-items: center;
     align-items: center;
@@ -51,40 +51,45 @@ button:hover{
     cursor: url(NIXONG.png), pointer;
 }
 
+#a-btn {
+    background-color: lightblue;
+}
 
-#a-btn{ background-color: lightblue; }
-#b-btn{ background-color: coral; }
-#c-btn{ background-color: whitesmoke; }
+#b-btn {
+    background-color: coral;
+}
 
-.c-container{
+#c-btn {
+    background-color: whitesmoke;
+}
+
+.c-container {
     width: 60%;
 }
 
-*{
+* {
     cursor: url(NIXONG.png), pointer;
 }
 
-body{
+body {
     background-image: url('america.jpg');
     background-size: cover;
     background-position: 30px -150px;
     cursor: url(NIXONG.png), pointer;
 }
 
-button{
+button {
     cursor: url(NIXONG.png), pointer;
 }
 
-div.o-container{
+div.o-container {
     cursor: url(NIXONG.png), pointer;
 }
 
-video{
+video {
     width: 560px;
     height: 250px;
 }
-
-
 
 #ac-wrapper {
     position: fixed;
@@ -92,7 +97,7 @@ video{
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(255,255,255,.6);
+    background: rgba(255, 255, 255, .6);
     z-index: 1001;
 }
 
@@ -108,5 +113,6 @@ video{
     -moz-box-shadow: #64686e 0px 0px 3px 3px;
     -webkit-box-shadow: #64686e 0px 0px 3px 3px;
     position: relative;
-    top: 150px; left: 375px;
+    top: 150px;
+    left: 375px;
 }
